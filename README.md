@@ -1,6 +1,6 @@
-# doompers
+# doompers 2018
 
-![Get all the slides](https://github.com/cdeletre/doompers/blob/master/images/get-all-the-slides.jpeg)
+![Get all the slides](https://github.com/cdeletre/doompers2018/blob/master/images/get-all-the-slides.jpeg)
 
 Just a simple Python script to automatically check and download new uploaded slides from talks at Trooper 2018. It is based on the script I've written for Troopers 2017 not deeply tested.
 
@@ -13,7 +13,7 @@ Usage: main.py [options]
 
 Options:
   -h, --help            show this help message and exit
-  -f FILE, --file=FILE  Write track data to FILE (troopers-2017.json by
+  -f FILE, --file=FILE  Write track data to FILE (troopers-2018.json by
                         default)
   -v, --verbose         Verbose mode
   -t, --text-only       Text only, no slides are downloaded
@@ -22,7 +22,6 @@ Options:
 
 The first run should give you something like this :
 ```
-$ ./main.py
 $ ./main.py
 Loading data from troopers-2018.json
 Extracting track urls
